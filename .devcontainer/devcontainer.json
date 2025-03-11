@@ -1,7 +1,8 @@
 {
     "name": "Dev Containers",
-    "image": "mcr.microsoft.com/dotnet/sdk:8.0",
-    "workspaceFolder": "/workspace",
+    //"image": "mcr.microsoft.com/dotnet/sdk:8.0",
+    "image": "mcr.microsoft.com/devcontainers/dotnet:1-8.0",
+    //"workspaceFolder": "/workspace",
     "customizations": {
         "vscode": {
             "extensions": [
